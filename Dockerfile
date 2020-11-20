@@ -8,6 +8,9 @@ RUN apk add --no-cache m4
 RUN apk add --no-cache perl
 RUN apk add --no-cache gdbm-dev
 RUN apk add --no-cache libressl-dev
+RUN npm install -g sass
+RUN apk add --no-cache postgresql-contrib
+RUN apk add --no-cache jq
 
 USER postgres
 RUN opam init --disable-sandboxing
