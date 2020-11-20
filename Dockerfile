@@ -1,4 +1,4 @@
-FROM alpine_with_opam 
+FROM ylecornec/alpine_with_opam
 MAINTAINER Yves-Stan Le Cornec "yves.stan.lecornec@gmail.com"
 
 USER root
